@@ -1,0 +1,21 @@
+{
+  "name": "wcs-checkpoint-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --poll src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^3",
+    "class-validator": "^0.14.0",
+    "graphql": "^16.6.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "ts-node-dev": "^2.0.0",
+    "type-graphql": "2.0.0-beta.2",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3"
+  }
+}

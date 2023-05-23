@@ -2,7 +2,7 @@ lockfileVersion: '6.0'
 
 dependencies:
   apollo-server:
-    specifier: ^3
+    specifier: ^3.12.0
     version: 3.12.0(graphql@16.6.0)
   class-validator:
     specifier: ^0.14.0
